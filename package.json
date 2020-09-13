@@ -1,10 +1,24 @@
 {
-  "name": "magicbet-contracts",
+  "name": "parcel-contracts",
   "version": "1.0.0",
+  "description": "",
+  "main": "buidler.config.js",
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {
-    "@openzeppelin/contracts": "^3.1.0",
-    "@truffle/hdwallet-provider": "^1.0.39",
-    "dotenv": "^8.2.0",
-    "solc": "^0.6.12"
-  }
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.4.0",
+    "@nomiclabs/buidler-ethers": "^2.0.0",
+    "@nomiclabs/buidler-waffle": "^2.0.0",
+    "ethereum-waffle": "^3.0.2",
+    "ethers": "^5.0.7"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
 }
